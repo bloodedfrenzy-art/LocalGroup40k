@@ -1,0 +1,1688 @@
+{
+  "catalogue": {
+    "name": "Necron (3E)",
+    "id": "869c-395c-3d56-3cce",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-1d8c-7a1d-0a5e-4b45",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 7,
+    "type": "catalogue",
+    "categoryEntries": [
+      {"name": "Destroyer Lord", "id": "8cb1-6eb9-c2b2-534e", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Destroyers", "id": "9522-3345-3ae8-4a95", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Faction: Necrons", "id": "6d70-1659-378c-2589", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Flayed Ones", "id": "982d-b571-cd25-12b3", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Heavy Destroyers", "id": "9a9c-b563-c6d8-7882", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Immortals", "id": "efb7-ffe7-81b9-4f13", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Lord", "id": "1ded-3fe4-3029-854e", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Monolith", "id": "a4c7-1501-0a93-6c8e", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Necron Warriors", "id": "7e79-d17b-3503-0048", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Pariahs", "id": "2bb0-aef6-5e18-9f66", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Scarab Swarms", "id": "df5a-a3d1-f75d-f76f", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Terrain", "id": "d8a9-daae-fd05-a7de", "hidden": false, "publicationId": "8141-9f94-a55f-5775"},
+      {"name": "The Deceiver", "id": "aa7d-c5d9-7477-5ce6", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "The Nightbringer", "id": "887f-8987-889e-5bad", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Tomb Spyders", "id": "bc89-4cc5-06ca-3212", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Warriors", "id": "cd03-a107-079e-8c48", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {"name": "Wraiths", "id": "d06b-6f8e-2b28-2c39", "hidden": false, "publicationId": "a9b4-e77d-2991-2f7e"},
+      {
+        "name": "C'tan",
+        "id": "b602-f788-6cfd-977c",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "a6d9-156e-d300-1cd2",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {"name": "Army rules", "id": "69e3-4f3d-6925-57ff", "hidden": false, "import": true, "targetId": "4c77-ae2a-5cc6-a4d5", "type": "selectionEntry"},
+      {"name": "Necron lord", "id": "f376-4937-1c82-814f", "hidden": false, "import": true, "targetId": "0065-7d20-8d5b-1ddf", "type": "selectionEntry"},
+      {"name": "Pariahs", "id": "1494-92d6-167f-6415", "hidden": false, "import": true, "targetId": "f36d-0218-8efb-ae1f", "type": "selectionEntry"},
+      {"name": "Flayed Ones", "id": "00af-327a-1fe7-436c", "hidden": false, "import": true, "targetId": "347d-9403-0fad-cdc4", "type": "selectionEntry"},
+      {"name": "Immortals", "id": "e3cb-d016-f7c3-7e11", "hidden": false, "import": true, "targetId": "cb37-b140-86cd-6ee3", "type": "selectionEntry"},
+      {"name": "Necron Warrior", "id": "e30d-04ef-920f-a86c", "hidden": false, "import": true, "targetId": "3df9-31e5-4700-4515", "type": "selectionEntry"},
+      {"name": "Wraiths", "id": "3e9d-3bb3-1720-344f", "hidden": false, "import": true, "targetId": "77d0-dc42-e970-21aa", "type": "selectionEntry"},
+      {"name": "Destroyers", "id": "6c0e-c50f-ab08-0e5d", "hidden": false, "import": true, "targetId": "09b9-4350-495e-d70f", "type": "selectionEntry"},
+      {"name": "Scarab Swarms", "id": "a52a-b80f-707c-de64", "hidden": false, "import": true, "targetId": "d738-99cd-c5e3-f60f", "type": "selectionEntry"},
+      {"name": "Heavy Destroyers", "id": "f568-a9ef-9745-3d29", "hidden": false, "import": true, "targetId": "dab2-bed6-9378-9a20", "type": "selectionEntry"},
+      {"name": "Tomb Spyders Squadron", "id": "f416-05b7-8bf1-cb4b", "hidden": false, "import": true, "targetId": "ead7-f9ac-1db7-22d4", "type": "selectionEntry"},
+      {"name": "Monolith", "id": "20d2-e5f3-fd34-af64", "hidden": false, "import": true, "targetId": "b8c3-0f36-ca47-b32f", "type": "selectionEntry"},
+      {"name": "The Nightbringer", "id": "e569-1485-33f0-8772", "hidden": false, "import": true, "targetId": "96a7-21ea-55c9-0daf", "type": "selectionEntry"},
+      {"name": "The Deceiver", "id": "42b4-21d5-4b80-c4e2", "hidden": false, "import": true, "targetId": "40ea-7571-d2aa-282c", "type": "selectionEntry"}
+    ],
+    "publications": [{"name": "Codex Necrons", "id": "a9b4-e77d-2991-2f7e", "hidden": false, "publisher": "Codex: Necrons", "shortName": "Necrons"}],
+    "sharedProfiles": [
+      {
+        "name": "Destroyers",
+        "id": "0b35-62da-c4dc-2975",
+        "hidden": false,
+        "page": 19,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "4", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "5", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "1", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Jet Bike", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Flayed ones",
+        "id": "f890-01a3-8ed1-86f4",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "4", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "4", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "4", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "2", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Infantry ", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Heavy Destroyers",
+        "id": "930e-c204-101d-b2ab",
+        "hidden": false,
+        "page": 20,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "4", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "5", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "1", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Jet Bike", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Immortals",
+        "id": "6450-9d4f-5a8f-83de",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "4", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "5", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "1", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "infantry", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Necron Lord",
+        "id": "e237-9ed5-6d77-3d97",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "5", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "5", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "3", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "4", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "3", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Infantry", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Pariahs",
+        "id": "d031-7089-4c86-ff8c",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "5", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "5", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "3", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "1", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Infantry", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Scarab Swarms",
+        "id": "623e-9e42-12b4-d413",
+        "hidden": false,
+        "page": 19,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "2", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "0", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "3", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "3", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "3", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "3", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "5+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Infantry", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "The Deceiver",
+        "id": "a92e-9148-e935-8954",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "5", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "3", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "9", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "8", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "5", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "5", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "4", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "4+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "The Nightbringer",
+        "id": "2106-5fc0-8a65-11ee",
+        "hidden": false,
+        "page": 25,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "6", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "10", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "8", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "5", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "4", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "5", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "4+(4++)", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Monstrous Creature", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Tomb Spyder",
+        "id": "4434-3ea0-d35e-0b89",
+        "hidden": false,
+        "page": 20,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "2", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "2", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "6", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "6", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "2", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "3", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Monstrous Creature", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Warriors",
+        "id": "93f4-678d-87f3-89d2",
+        "hidden": false,
+        "page": 18,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "4", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "4", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "1", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Infantry ", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Wraiths",
+        "id": "3b11-8150-198c-ee63",
+        "hidden": false,
+        "page": 19,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "bba7-6d18-15e1-652a",
+        "typeName": "Unit",
+        "characteristics": [
+          {"name": "WS", "$text": "4", "typeId": "9ae6-ec68-427a-a511"},
+          {"name": "BS", "$text": "4", "typeId": "37a7-77fb-a8a6-3e5c"},
+          {"name": "S", "$text": "6", "typeId": "20da-da88-1957-632e"},
+          {"name": "T", "$text": "4", "typeId": "2afb-0ebb-a004-d28a"},
+          {"name": "W", "$text": "1", "typeId": "2836-ce0f-12f7-726e"},
+          {"name": "I", "$text": "6", "typeId": "7945-7f36-b413-0b07"},
+          {"name": "A", "$text": "3", "typeId": "2ccf-8802-5953-d57a"},
+          {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+          {"name": "Sv", "$text": "3+ (3++)", "typeId": "5b32-e828-9544-b1af"},
+          {"name": "Unit Type", "$text": "Jet Bike", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+        ]
+      },
+      {
+        "name": "Monolith",
+        "id": "93ad-98d6-55b4-ef9b",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "e629-1010-6eea-2a63",
+        "typeName": "Vehicle",
+        "characteristics": [
+          {"name": "Front Armor", "$text": "14", "typeId": "6f6e-6b2f-700f-7814"},
+          {"name": "Side Armor", "$text": "14", "typeId": "0b12-834b-954f-223a"},
+          {"name": "Rear Armor", "$text": "14", "typeId": "8819-7e6e-dda7-f9d2"},
+          {"name": "BS", "$text": "4", "typeId": "838c-712e-aab4-1419"},
+          {"name": "Crew", "$text": "None", "typeId": "eaf2-b68c-db79-2642"},
+          {"name": "Transport", "$text": "Special", "typeId": "3e6b-a0a9-db87-d987"}
+        ]
+      },
+      {
+        "name": "Gauss Flayer",
+        "id": "2ebf-4377-e529-e664",
+        "hidden": false,
+        "page": 112,
+        "publicationId": "a9b4-e77d-2991-2f7e",
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "24\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "4", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "5", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Rapid Fire, Guass", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Heavy Guass Cannon",
+        "id": "fda7-39ef-cf5d-47cc",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "36\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "9", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "2", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Heavy 1, Guass", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Guass Blaster",
+        "id": "2e88-24ce-b411-6ab9",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "24\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "5", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "4", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Assault 2, Guass", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Guass Cannon",
+        "id": "c395-c024-df94-31a6",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "36\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "6", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "4", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Heavy 3, Guass", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Guass Flux arc",
+        "id": "462f-6273-534e-c797",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "5", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "4", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Heavy 1d6 per target, Guass", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Particle whip",
+        "id": "659b-1a15-ee71-e1aa",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "24\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "9", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "3", "typeId": "3ab5-9538-2cdd-953d"},
+          {
+            "name": "Type",
+            "$text": "Ordnance 1, blast, Models under the center whole of the template count as being hit by a AP1 attack",
+            "typeId": "70f7-c79e-e0bc-8944"
+          }
+        ]
+      },
+      {
+        "name": "particle projector",
+        "id": "ee29-f21e-0614-c478",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "5", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "3", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Assault 3", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Staff of Light",
+        "id": "ebc7-146f-e87e-aff3",
+        "hidden": false,
+        "typeId": "fc61-e517-2b04-6f13",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"", "typeId": "7a63-b065-5152-1138"},
+          {"name": "Strength", "$text": "5", "typeId": "4816-449c-00b6-dbe2"},
+          {"name": "AP", "$text": "3", "typeId": "3ab5-9538-2cdd-953d"},
+          {"name": "Type", "$text": "Assault 3, In melee this weapon acts as a power weapon", "typeId": "70f7-c79e-e0bc-8944"}
+        ]
+      },
+      {
+        "name": "Warscythe",
+        "id": "f089-f930-3050-ebc2",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Attacks made by this close combat weapon do not allow saves of any kind (including Invulnerable) and when attacking vehicles 2d6+strength is rolled for armor penetration",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Chronometron",
+        "id": "f8fe-e43b-da9d-e5fd",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Roll two dice and discard the lowest for determining how far this unit can make a sweeping advance and fall back",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Disruption Field",
+        "id": "b4ee-ef24-f6ea-8254",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "In close combat any vehicle hit suffers a glancing hit on a 6 on the Armor penetrating roll regardless of if the targets armor value was above the end result",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Destroyer body",
+        "id": "61f8-124c-6420-7cf9",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [{"name": "Description", "$text": "Unit becomes a jet bike and gets +1 toughness", "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"}]
+      },
+      {
+        "name": "Gaze of Flame",
+        "id": "c700-c9a3-fd35-f3ea",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Units that charge this model's unit do not receive the +1 attacks for charging. Models in melee combat with the lord suffer a -1 penalty to leadership",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Lightning field",
+        "id": "4a13-377c-0620-b64f",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "For each wound inflicted on this model the model that did the wound suffers a strength 3 AP- hit back. This is done after all attacks are resolved",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Nightmare Shroud",
+        "id": "119c-7395-6344-a8fc",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "In the shooting phase instead of firing a weapon every enemy unit with a model within 12\" of the lord must take a morale test as though they had taken 25% casualties. Normal rules apply (I.e. Units that never fall back are immune to this)",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Phylactery",
+        "id": "afe1-b761-62e7-3190",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "When the lord is reduced to 0 wounds he may attempt to use this wargear instead of normal rules roll 1d6 and follow the table below:\n1-3: removed as normal\n4: Lord stands with 1 wound remaining\n5: Lord stands with 2 wound remaining\n6: Lord stands with 3 wound remaining",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Phase Shifter",
+        "id": "3604-1cc1-a95a-098c",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [{"name": "Description", "$text": "Model gains a 4+ invulnerable save", "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"}]
+      },
+      {
+        "name": "Resurrection Orb",
+        "id": "0f92-8279-a35b-2337",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "All necron units with a model within 6\" of the lord (including the lord himself) may attempt We'll Be Back rolls even if they were damaged by instant death or close combat weapons that ignore saves",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Solar Pulse",
+        "id": "4512-b8ac-fbce-3579",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "One use per battle: Use at the beginning of the necron turn. If night fighting rules are in effect then ignore them for the necron turn. If night fighting rules are not in affect then during the following enemy turn night fighting rules apply for any attacks made against the necron lord. If a unit is unable to target the lord because of this it may choose a different target.",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      },
+      {
+        "name": "Veil of Darkness",
+        "id": "92c6-cfbc-879d-54e3",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "At the start of the movement phase instead of moving normally the lord and up to one unit of Necrons within 6\"are removed then placed back on the table together following deep strike rules. The lord or choose unit may leave combat doing this and enemy models are simply left behind",
+            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Phase Out",
+        "id": "54da-7c4b-dec5-ef7f",
+        "description": "If a necron army is ever reduced to 25% or less of its original number of models it will disappear from the battlefield automatically losing the game. C’tan, Spyder, Scarab, Pariahs, and Monoliths do not count for this. This is calculated after We’ll be back.",
+        "hidden": false,
+        "publicationId": "a9b4-e77d-2991-2f7e"
+      },
+      {
+        "name": "We'll Be back",
+        "id": "5915-2b8e-5946-5cdc",
+        "description": "When a necron model is reduced to 0 wounds lay it facedown. Damaged models are ignored for coherency and cannot be attacked. This cannot be done if killed by a close combat weapon that ignores armor saves or by an attack that was double the targets toughness. In addition, another model of the same type must be within 6” though not of the same unit.\nAt the start of the necron turn roll 1d6 for each necron capable of self-repairing. Ona 4-6 the necron stands back up with 1 wound remaining. Place within coherency of the nearest unit of the same type. The model now acts as if it was part of that unit. If the unit was in close combat it joins the melee but may not be placed in contact with a new enemy unit.\n\nYou then reduce the number of dice in that pool by a number equal to the Wounds characteristic of the Reanimated model and repeat this process until either there are no more reassembling models, or the number of dice remaining in the pool is less than the Wounds characteristic of any of the reassembling models. Any models that did not Reanimate fail to reassemble, and any dice remaining in the pool are discarded.\n\nNecron lord:\nNecron lords do not need a model of the same type within 6” unless killed by a close combat weapon that ignores armor saves or by an attack that was double the targets toughness.\n\nTomb Spyder:\nNecron do not need a model of the same type within 6” if there is a spyder within 12”.",
+        "hidden": false,
+        "page": 80,
+        "publicationId": "a9b4-e77d-2991-2f7e"
+      },
+      {"name": "Necron", "id": "fc57-6bf1-0e1a-9502", "description": "This model follows the Phase Out and We'll Be Back rules", "hidden": false},
+      {
+        "name": "Guass",
+        "id": "9aee-9130-3ade-c20e",
+        "description": "Against troops rolls of 6 with this weapon wound regardless of toughness. Any vehicle hit suffers a glancing hit on a 6 on the Armor penetrating roll regardless of if the targets armor value was above the end result",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Necron lord",
+        "id": "0065-7d20-8d5b-1ddf",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Character", "id": "55de-fa9b-83cc-54d5", "hidden": false, "primary": false, "targetId": "588e-69d4-72d2-b0e3"},
+          {"name": "HQ", "id": "1256-c794-6718-a6ba", "hidden": false, "primary": true, "targetId": "555e-accf-54ba-f0c3"},
+          {"name": "Infantry", "id": "e76b-8f51-862e-be83", "hidden": false, "primary": false, "targetId": "7418-a903-a11c-8be2"}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 100}],
+        "entryLinks": [
+          {
+            "name": "Wargear",
+            "id": "df24-fe3b-d1f0-7b11",
+            "hidden": false,
+            "import": true,
+            "targetId": "ef4f-8f0f-37ab-a83f",
+            "type": "selectionEntryGroup",
+            "constraints": [{"id": "a635-0a49-eecd-7ba6", "field": "points", "scope": "parent", "shared": true, "type": "max", "value": 100}]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Necron Lord",
+            "id": "d6b4-6819-c626-3d41",
+            "hidden": false,
+            "targetId": "e237-9ed5-6d77-3d97",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "2afb-0ebb-a004-d28a",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "c592-f3cf-e607-c248",
+                    "childName": "Destroyer body",
+                    "field": "selections",
+                    "scope": "0065-7d20-8d5b-1ddf",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5",
+                "type": "set",
+                "value": "Jet Bike",
+                "conditions": [
+                  {
+                    "childId": "c592-f3cf-e607-c248",
+                    "childName": "Destroyer body",
+                    "field": "selections",
+                    "scope": "0065-7d20-8d5b-1ddf",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "5b32-e828-9544-b1af",
+                "type": "set",
+                "value": "3+(4++)",
+                "conditions": [
+                  {
+                    "childId": "b8b5-f5c9-18ac-8488",
+                    "childName": "Phase Shifter",
+                    "field": "selections",
+                    "scope": "0065-7d20-8d5b-1ddf",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Necron", "id": "e489-a154-3440-a7be", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "e6da-fc64-da2a-a81c",
+            "conditions": [
+              {
+                "childId": "c592-f3cf-e607-c248",
+                "childName": "Destroyer body",
+                "field": "selections",
+                "scope": "0065-7d20-8d5b-1ddf",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "remove",
+            "value": "7418-a903-a11c-8be2",
+            "conditions": [
+              {
+                "childId": "c592-f3cf-e607-c248",
+                "childName": "Destroyer body",
+                "field": "selections",
+                "scope": "0065-7d20-8d5b-1ddf",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon option",
+            "id": "1e12-2ffa-e595-7d7e",
+            "hidden": false,
+            "constraints": [
+              {"id": "781c-af87-481b-66bd", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "f798-e92b-aedd-10d5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Staff of light",
+                "id": "c1f1-a129-819e-3e06",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "dbfe-bff6-9afb-38a5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [{"name": "Staff of Light", "id": "989d-9430-bf9b-f7a8", "hidden": false, "targetId": "ebc7-146f-e87e-aff3", "type": "profile"}]
+              },
+              {
+                "name": "Warscythe",
+                "id": "f588-22a1-42b5-8b66",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "429b-0ac3-281d-70ff", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 10}],
+                "infoLinks": [{"name": "Warscythe", "id": "3d7a-8b7b-aa83-ddaa", "hidden": false, "targetId": "f089-f930-3050-ebc2", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Army rules",
+        "id": "4c77-ae2a-5cc6-a4d5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "9dc2-a388-7dd4-928e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "8d82-ba5f-9256-ae39", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "infoLinks": [
+          {"name": "Phase Out", "id": "0fd1-f5ee-1005-a2c3", "hidden": false, "targetId": "54da-7c4b-dec5-ef7f", "type": "rule"},
+          {"name": "We'll Be back", "id": "e2ee-ca9a-e357-8d34", "hidden": false, "targetId": "5915-2b8e-5946-5cdc", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Pariahs",
+        "id": "f36d-0218-8efb-ae1f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Elite", "id": "0c2d-ceb0-a97c-e62d", "hidden": false, "primary": true, "targetId": "73ed-aa1a-6102-ca54"},
+          {"name": "Infantry", "id": "6d5b-6f84-6767-42ca", "hidden": false, "primary": false, "targetId": "7418-a903-a11c-8be2"}
+        ],
+        "constraints": [
+          {
+            "id": "d400-ad89-74e2-48df",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Fearless", "id": "9126-87ff-fed0-fab4", "hidden": false, "targetId": "8443-d89d-5f81-48af", "type": "rule"}],
+        "rules": [
+          {
+            "name": "Soulless",
+            "id": "e3e1-468b-203f-11e8",
+            "description": "Any enemy unit with a model within 12\" of a Pariah counts as leadership 7 unless it would normally be less",
+            "hidden": false
+          },
+          {
+            "name": "Psychic Abomination",
+            "id": "98cb-dcc2-8a92-87b6",
+            "description": "Any Psyker within 6\" of a Pariah at the start of their turn must take a morale check or fall back along with any squad they are leading. If the psyker is in close combat at the time he will not fall back he will only hit on 6's in the assault phase",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Pariahs",
+            "id": "577c-ab96-1fd7-15ca",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "fb22-3e2f-41d3-107c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "9251-bb59-25d0-3930", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 36}],
+            "infoLinks": [
+              {"name": "Pariahs", "id": "8c7b-cbd4-29d8-cb92", "hidden": false, "targetId": "d031-7089-4c86-ff8c", "type": "profile"},
+              {"name": "Guass Blaster", "id": "98ed-7d0a-b84a-70a0", "hidden": false, "targetId": "2e88-24ce-b411-6ab9", "type": "profile"},
+              {"name": "Warscythe", "id": "11e7-fc5c-c417-091b", "hidden": false, "targetId": "f089-f930-3050-ebc2", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flayed Ones",
+        "id": "347d-9403-0fad-cdc4",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Elite", "id": "a032-eecb-3096-d025", "hidden": false, "primary": true, "targetId": "73ed-aa1a-6102-ca54"},
+          {"name": "Infantry", "id": "1a82-de76-ca72-e6f3", "hidden": false, "primary": false, "targetId": "7418-a903-a11c-8be2"}
+        ],
+        "infoLinks": [
+          {"name": "Necron", "id": "c88b-2b7e-7d01-81a5", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"},
+          {"name": "Infiltrate", "id": "bca4-96a0-58de-649f", "hidden": false, "targetId": "e73e-a38a-ae30-59c0", "type": "rule"},
+          {"name": "Deep strike", "id": "5fcf-6e7e-0c3d-f761", "hidden": false, "targetId": "3e08-e9a0-1ddb-f3a4", "type": "rule"},
+          {"name": "Move through cover", "id": "51fa-ba60-c554-b916", "hidden": false, "targetId": "38d9-835d-23b7-9f17", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Terrifying Visage",
+            "id": "3935-3d25-d26f-abf3",
+            "description": "Units in close combat with the Flayed One must take a leadership test at the start of each round of combat. If they fail then for the round they may only hit the Flayed Ones on a roll of a 6 regardless of WS",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Flayed Ones",
+            "id": "9508-96e1-1bfc-39e5",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "b3cc-8fc0-82fc-0e10", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "59bb-1eb2-940e-8811", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 18}],
+            "infoLinks": [{"name": "Flayed ones", "id": "7f05-302d-0e55-986c", "hidden": false, "targetId": "f890-01a3-8ed1-86f4", "type": "profile"}]
+          },
+          {
+            "name": "Upgrade the entire unit with Disruption Fields",
+            "id": "a29f-c083-6b21-5216",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "02c0-c244-d1b3-20c9", "field": "selections", "scope": "347d-9403-0fad-cdc4", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+            "infoLinks": [{"name": "Disruption Field", "id": "4972-78c6-2421-a970", "hidden": false, "targetId": "b4ee-ef24-f6ea-8254", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "multiply",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "9508-96e1-1bfc-39e5",
+                    "childName": "Flayed Ones",
+                    "field": "selections",
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "347d-9403-0fad-cdc4",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Immortals",
+        "id": "cb37-b140-86cd-6ee3",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Elite", "id": "945d-3a87-e78f-4725", "hidden": false, "primary": true, "targetId": "73ed-aa1a-6102-ca54"},
+          {"name": "Infantry", "id": "84d5-076a-14e9-20a1", "hidden": false, "primary": false, "targetId": "7418-a903-a11c-8be2"}
+        ],
+        "infoLinks": [{"name": "Necron", "id": "454d-92ad-bed3-b22f", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"}],
+        "selectionEntries": [
+          {
+            "name": "Immortals",
+            "id": "57c4-840b-41c2-0d5d",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "56d9-59fb-5eda-abfc", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 5},
+              {"id": "d2ad-7e93-e7fe-a1e0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 28}],
+            "infoLinks": [
+              {"name": "Immortals", "id": "47c6-2924-9a6c-881e", "hidden": false, "targetId": "6450-9d4f-5a8f-83de", "type": "profile"},
+              {"name": "Guass Blaster", "id": "8787-c594-b98d-15fd", "hidden": false, "targetId": "2e88-24ce-b411-6ab9", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Upgrade the entire unit with Disruption Fields",
+            "id": "e81a-d5c6-e424-84de",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "cb1a-599b-d71f-58cd", "field": "selections", "scope": "cb37-b140-86cd-6ee3", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+            "infoLinks": [{"name": "Disruption Field", "id": "7f2c-bd83-7a30-8783", "hidden": false, "targetId": "b4ee-ef24-f6ea-8254", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "multiply",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "57c4-840b-41c2-0d5d",
+                    "childName": "Immortals",
+                    "field": "selections",
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "cb37-b140-86cd-6ee3",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Necron Warrior",
+        "id": "3df9-31e5-4700-4515",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "6657-595f-6a62-fa18", "hidden": false, "primary": false, "targetId": "7418-a903-a11c-8be2"},
+          {"name": "Troop", "id": "7e73-9b40-8737-5c45", "hidden": false, "primary": true, "targetId": "7100-f760-9bee-4cdf"}
+        ],
+        "infoLinks": [{"name": "Necron", "id": "8fd7-0968-fc20-033d", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Reserves ",
+            "id": "bfe8-40c2-4649-4576",
+            "hidden": false,
+            "typeId": "e613-233c-0758-ab9b",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Any warrior unit in excess of the minimum force org may begin the game in reserves even when the reserves rule is not being used. These models may only enter the game via monolith portal. Any unit not deployed before the end of battle counts as having been destroyed",
+                "typeId": "9348-add7-972a-c772"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warrior",
+            "id": "97f8-3070-e12e-76ec",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "7b5e-4f35-8c1a-fc14",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 20
+              },
+              {
+                "id": "3de5-10a9-cc59-0e0b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 10
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 18}],
+            "infoLinks": [
+              {"name": "Warriors", "id": "ceae-57ff-cdd7-c1e8", "hidden": false, "targetId": "93f4-678d-87f3-89d2", "type": "profile"},
+              {"name": "Gauss Flayer", "id": "9f50-6a84-878a-d972", "hidden": false, "targetId": "2ebf-4377-e529-e664", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Upgrade the entire unit with Disruption Fields",
+            "id": "bd1f-8e8a-d0bc-0c89",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "f8ab-d2eb-db7c-c907", "field": "selections", "scope": "3df9-31e5-4700-4515", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+            "infoLinks": [{"name": "Disruption Field", "id": "97a9-0690-ef33-58a4", "hidden": false, "targetId": "b4ee-ef24-f6ea-8254", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "multiply",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "97f8-3070-e12e-76ec",
+                    "childName": "Warrior",
+                    "field": "selections",
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "3df9-31e5-4700-4515",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wraiths",
+        "id": "77d0-dc42-e970-21aa",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Fast Attack", "id": "8652-9e34-55e0-d703", "hidden": false, "primary": true, "targetId": "090b-9c0c-9d3a-331a"},
+          {"name": "Jet Bike", "id": "66ad-c95b-3db8-155b", "hidden": false, "primary": false, "targetId": "e6da-fc64-da2a-a81c"}
+        ],
+        "infoLinks": [{"name": "Necron", "id": "fd63-bbd4-3334-7af5", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"}],
+        "rules": [
+          {
+            "name": "Phase Shift",
+            "id": "db8b-5d5f-fbd9-c4ea",
+            "description": "Wraiths have a 3+ inv save and when attacking models in or behind cover count as having Frag Grenades",
+            "hidden": false
+          },
+          {
+            "name": "Wraithflight",
+            "id": "281b-3753-7f1f-e347",
+            "description": "My pass through terrain, regard no terrain as impassable, and never take Difficult Terrain Tests. Wraiths may not end a move inside objects and cannot move through enemy units",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Wraith",
+            "id": "4d67-7128-ec9c-aba1",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "9ba2-bdaf-a75a-0bdf", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3},
+              {"id": "bd86-90cb-a93b-6585", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 41}],
+            "infoLinks": [
+              {"name": "Wraiths", "id": "4e70-1449-798e-9799", "hidden": false, "targetId": "3b11-8150-198c-ee63", "type": "profile"},
+              {"name": "Assault Grenades ", "id": "8f45-080b-b114-3c71", "hidden": false, "targetId": "87a3-4e0a-5cd1-31ab", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Destroyers",
+        "id": "09b9-4350-495e-d70f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Fast Attack", "id": "26ef-42bf-bb27-dcfe", "hidden": false, "primary": true, "targetId": "090b-9c0c-9d3a-331a"},
+          {"name": "Jet Bike", "id": "3cf0-ca96-3750-ba84", "hidden": false, "primary": false, "targetId": "e6da-fc64-da2a-a81c"}
+        ],
+        "infoLinks": [{"name": "Necron", "id": "4ca2-96b5-e6c3-caa8", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"}],
+        "selectionEntries": [
+          {
+            "name": "Destroyers",
+            "id": "a9d1-e87a-2031-3df6",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "0932-273d-71e5-46e5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5},
+              {"id": "ded9-c24e-f998-93cf", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 3}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 50}],
+            "infoLinks": [
+              {"name": "Destroyers", "id": "4a2a-4137-e838-dbd3", "hidden": false, "targetId": "0b35-62da-c4dc-2975", "type": "profile"},
+              {"name": "Guass Cannon", "id": "10aa-bd86-f3bf-0afb", "hidden": false, "targetId": "c395-c024-df94-31a6", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scarab Swarms",
+        "id": "d738-99cd-c5e3-f60f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Fast Attack", "id": "a372-2cce-a442-d7e1", "hidden": false, "primary": true, "targetId": "090b-9c0c-9d3a-331a"},
+          {"name": "Infantry", "id": "f026-c9e2-0490-41f5", "hidden": false, "primary": false, "targetId": "7418-a903-a11c-8be2"}
+        ],
+        "infoLinks": [
+          {"name": "Fearless", "id": "084a-96f7-20d5-8407", "hidden": false, "targetId": "8443-d89d-5f81-48af", "type": "rule"},
+          {"name": "Deep strike", "id": "6f0d-a6a8-93bb-51e7", "hidden": false, "targetId": "3e08-e9a0-1ddb-f3a4", "type": "rule"},
+          {"name": "Swarms", "id": "4ef2-58ed-d7e2-e057", "hidden": false, "targetId": "12d2-b2d0-8a8b-f7dc", "type": "rule"}
+        ],
+        "rules": [
+          {"name": "Small Target", "id": "0c04-e1c5-dce4-a955", "description": "If this model has a cover save it adds +1 to it", "hidden": false},
+          {
+            "name": "Scarab Swarms",
+            "id": "2201-c209-d980-8ef5",
+            "description": "All swarms are vulnerable to blast/template and they also never give cover to vehicles or monstrous creatures. They move like jet bikes and never take Difficult Terrain test. Scarabs may not capture table quarters, hold objectives, or count as surviving troops for mission objectives",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Scarab Swarms",
+            "id": "3bd0-8774-2f20-fcb2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "c6b5-73d7-5b63-bd4c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "eb1f-c584-ccf6-e362", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 12}],
+            "infoLinks": [{"name": "Scarab Swarms", "id": "8e54-88c7-e994-bbf5", "hidden": false, "targetId": "623e-9e42-12b4-d413", "type": "profile"}]
+          },
+          {
+            "name": "Upgrade the entire unit with Disruption Fields",
+            "id": "9025-00fb-8ea1-0065",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "0620-a3cf-2999-3394", "field": "selections", "scope": "d738-99cd-c5e3-f60f", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+            "infoLinks": [{"name": "Disruption Field", "id": "4453-e634-bad1-e8b8", "hidden": false, "targetId": "b4ee-ef24-f6ea-8254", "type": "profile"}],
+            "modifiers": [
+              {
+                "field": "points",
+                "type": "multiply",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "3bd0-8774-2f20-fcb2",
+                    "childName": "Scarab Swarms",
+                    "field": "selections",
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "d738-99cd-c5e3-f60f",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy Destroyers",
+        "id": "dab2-bed6-9378-9a20",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Jet Bike", "id": "5d73-aa0a-3504-9738", "hidden": false, "primary": false, "targetId": "e6da-fc64-da2a-a81c"},
+          {"name": "Heavy Support", "id": "13ed-97ed-86d6-4374", "hidden": false, "primary": true, "targetId": "fcbe-63f4-b266-c7e8"}
+        ],
+        "infoLinks": [{"name": "Necron", "id": "8c33-c8de-9c38-b0d9", "hidden": false, "targetId": "fc57-6bf1-0e1a-9502", "type": "rule"}],
+        "selectionEntries": [
+          {
+            "name": "Heavy Destroyer",
+            "id": "e70c-7100-6ea9-4434",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "3911-99fb-ff99-330b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3},
+              {"id": "7f20-4515-ed7c-ffbc", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 65}],
+            "infoLinks": [
+              {"name": "Heavy Destroyers", "id": "c968-3d8a-6762-abbd", "hidden": false, "targetId": "930e-c204-101d-b2ab", "type": "profile"},
+              {"name": "Heavy Guass Cannon", "id": "add9-4129-a647-6243", "hidden": false, "targetId": "fda7-39ef-cf5d-47cc", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Monolith",
+        "id": "b8c3-0f36-ca47-b32f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Heavy Support", "id": "dbeb-5989-d012-4170", "hidden": false, "primary": true, "targetId": "fcbe-63f4-b266-c7e8"},
+          {"name": "Vehicle (Skimmer)", "id": "0e3b-5db5-30d4-119d", "hidden": false, "primary": false, "targetId": "a21a-0c81-6cb0-d86b"},
+          {"name": "Vehicle (Tank)", "id": "11bf-dcec-b61a-79fa", "hidden": false, "primary": false, "targetId": "6904-7b76-ae7a-db8c"},
+          {"name": "Vehicle", "id": "e88f-b6e9-ac4e-118b", "hidden": false, "primary": false, "targetId": "fb81-85c9-2f10-5508"}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 235}],
+        "infoLinks": [
+          {"name": "Monolith", "id": "53cf-e35f-e31b-941b", "hidden": false, "targetId": "93ad-98d6-55b4-ef9b", "type": "profile"},
+          {"name": "Guass Flux arc", "id": "7694-b753-7ced-f72d", "hidden": false, "targetId": "462f-6273-534e-c797", "type": "profile"},
+          {"name": "Particle whip", "id": "cfbe-9417-48c7-13fd", "hidden": false, "targetId": "659b-1a15-ee71-e1aa", "type": "profile"},
+          {"name": "Deep strike", "id": "983e-dba1-f59d-e5c2", "hidden": false, "targetId": "3e08-e9a0-1ddb-f3a4", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Living Metal",
+            "id": "df2a-722b-af52-74a0",
+            "description": "Weapons that count this models armor value as less then its true value do not do so against it. Weapons that gain extra armor penetration dice against it do not either. Ordnance weapons still roll 2d6 and take the highest",
+            "hidden": false
+          },
+          {
+            "name": "Ponderous",
+            "id": "4c37-faa0-9c8a-7dc8",
+            "description": "This model is a skimmer that can move up to 6\" or remain stationary if it chooses. It will not drift if stunned or shaken and if immobilised it will not crash but instead sink slowly to the ground. When this model deep strikes if enemy models are within 1\" instead of being destroyed move those models the minimum distance required to make space for the monolith.",
+            "hidden": false
+          },
+          {
+            "name": "Guass flux Arc Projectors",
+            "id": "3906-b807-40b5-5f7f",
+            "description": "This model will fire its Guass Flux arc at all enemy units with 12\". Each destroyed weapon result is a -1 to the number of shots",
+            "hidden": false
+          },
+          {
+            "name": "Power Matrix",
+            "id": "1e0e-e12c-0f8a-acc5",
+            "description": "The monolith may use one of the following abilities each Necron turn\n1:In the shooting phase use the Particle whip profile\n\n\n2:In the movement phase allow a unit with the Necron rule and any joined lord with at least one model within 18\" of the monolith to be removed from the table (even if in close combat) and re-emerge from the front of the monolith. If a unit of warrior can come into play then you must use this ability even if you would prefer to fire the Particle whip and must select the warrior unit to enter play. Only one warrior unit may enter play through each monolith per turn. Any models that failed their We'll Be Back roll at the start of the turn and where removed may try again when the unit emerges from the monolith. ",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Tomb Spyders Squadron",
+        "id": "ead7-f9ac-1db7-22d4",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Heavy Support", "id": "c502-e606-8178-d456", "hidden": false, "primary": true, "targetId": "fcbe-63f4-b266-c7e8"},
+          {"name": "Monstrous Creatures", "id": "74d5-a980-8e2b-a2ac", "hidden": false, "primary": false, "targetId": "0129-3356-cf79-05f1"}
+        ],
+        "infoLinks": [
+          {"name": "Fearless", "id": "46a4-c9d3-e794-e04c", "hidden": false, "targetId": "8443-d89d-5f81-48af", "type": "rule"},
+          {"name": "Scarab Swarms", "id": "9f33-ae7d-0f08-a6f3", "hidden": false, "targetId": "623e-9e42-12b4-d413", "type": "profile"},
+          {"name": "Squadron", "id": "50c5-f80c-5ae3-92da", "hidden": false, "targetId": "ea70-4934-4dac-756a", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Artificer",
+            "id": "5c4f-4427-bfb9-1463",
+            "description": "Each necron turn that a spyder is not in close combat you may use this rule. Place a scarab swarm in base contact with the Spyder at the top of the assault phase the roll 1d6 and on a 1 suffer a wound. The scarab swarm joins the Sypder's unit",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Squad comp",
+            "id": "616c-8e7e-4d5a-f13f",
+            "hidden": false,
+            "constraints": [
+              {"id": "8057-9e71-92e1-ce1c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3},
+              {"id": "2002-6c87-2b54-1f36", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Sypder with Claw",
+                "id": "f4ed-c05d-b4f2-0cfd",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 55}],
+                "infoLinks": [{"name": "Tomb Spyder", "id": "0dc3-d4a2-95f7-f5ae", "hidden": false, "targetId": "4434-3ea0-d35e-0b89", "type": "profile"}]
+              },
+              {
+                "name": "Sypder with Particle projector",
+                "id": "23b1-9510-c8da-9971",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 55}],
+                "infoLinks": [{"name": "particle projector", "id": "3a96-6706-9978-09da", "hidden": false, "targetId": "ee29-f21e-0614-c478", "type": "profile"}],
+                "profiles": [
+                  {
+                    "name": "Sypder with Particle projector",
+                    "id": "7746-8c0b-1406-044b",
+                    "hidden": false,
+                    "typeId": "bba7-6d18-15e1-652a",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {"name": "WS", "$text": "2", "typeId": "9ae6-ec68-427a-a511"},
+                      {"name": "BS", "$text": "2", "typeId": "37a7-77fb-a8a6-3e5c"},
+                      {"name": "S", "$text": "6", "typeId": "20da-da88-1957-632e"},
+                      {"name": "T", "$text": "6", "typeId": "2afb-0ebb-a004-d28a"},
+                      {"name": "W", "$text": "2", "typeId": "2836-ce0f-12f7-726e"},
+                      {"name": "I", "$text": "2", "typeId": "7945-7f36-b413-0b07"},
+                      {"name": "A", "$text": "2", "typeId": "2ccf-8802-5953-d57a"},
+                      {"name": "LD", "$text": "10", "typeId": "2f11-56dd-b161-0ae9"},
+                      {"name": "Sv", "$text": "3+", "typeId": "5b32-e828-9544-b1af"},
+                      {"name": "Unit Type", "$text": "Monstrous Creature", "typeId": "c2b4b061-a0fd-499d-8a3d-6ee52587cbd5"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Nightbringer",
+        "id": "96a7-21ea-55c9-0daf",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Character", "id": "1cfa-3422-a0bc-0f9a", "hidden": false, "primary": false, "targetId": "588e-69d4-72d2-b0e3"},
+          {"name": "HQ", "id": "a4ab-5d22-7d29-6047", "hidden": false, "primary": true, "targetId": "555e-accf-54ba-f0c3"},
+          {"name": "Monstrous Creatures", "id": "540a-3910-e5b2-800e", "hidden": false, "primary": false, "targetId": "0129-3356-cf79-05f1"},
+          {"name": "C'tan", "id": "7f07-057e-d75a-5eb1", "hidden": false, "primary": false, "targetId": "b602-f788-6cfd-977c"},
+          {"name": "Legendary Unit", "id": "52df-0235-50bd-f2ec", "hidden": false, "primary": false, "targetId": "ee338739-6edf-4620-a2cc-f38d5dd21606"}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 360}],
+        "infoLinks": [
+          {"name": "Fearless", "id": "4498-8f35-dc77-c511", "hidden": false, "targetId": "8443-d89d-5f81-48af", "type": "rule"},
+          {"name": "The Nightbringer", "id": "fd8f-03f4-99eb-144b", "hidden": false, "targetId": "2106-5fc0-8a65-11ee", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Lightning Arc",
+            "id": "94b0-2690-3c63-f0b2",
+            "hidden": false,
+            "typeId": "fc61-e517-2b04-6f13",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "7a63-b065-5152-1138"},
+              {"name": "Strength", "$text": "9", "typeId": "4816-449c-00b6-dbe2"},
+              {"name": "AP", "$text": "2", "typeId": "3ab5-9538-2cdd-953d"},
+              {"name": "Type", "$text": "Assault 1", "typeId": "70f7-c79e-e0bc-8944"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Immune to Natural Law",
+            "id": "b285-fb88-463c-88e9",
+            "description": "My pass through terrain, regard no terrain as impassable, and never take Difficult Terrain Tests. Wraiths may not end a move inside objects and cannot move through enemy units",
+            "hidden": false
+          },
+          {
+            "name": "Necrodermis",
+            "id": "408d-f4fc-495c-e1f0",
+            "description": "This model has a 4+ invulnerable save and if it loses all its wound all models within d6\" suffer a S6 hit no saves allowed. If this model is hit by wraith cannons instead of instant death it takes one wound no save allowed. If C'tan phase sword or knife strikes a C'tan the attack is ignored.",
+            "hidden": false
+          },
+          {
+            "name": "Drain Life",
+            "id": "f854-fb73-018d-2d59",
+            "description": "Any model reduced to 0 wounds by this models close combat attacks my not regenerate or recover wounds",
+            "hidden": false
+          },
+          {
+            "name": "Manifestations",
+            "id": "60b9-d12a-57e0-765c",
+            "description": "Any unit wishing to charge this model must pass a leadership test. If the unit fails they do not charge and may not charge any other units this phase",
+            "hidden": false
+          },
+          {
+            "name": "Above All Others",
+            "id": "cd8f-bd6a-623e-c1f3",
+            "description": "This unit may not join friendly units and may be picked out by enemy shooters even if within 6\" of other targets.",
+            "hidden": false
+          },
+          {
+            "name": "Gaze of Death",
+            "id": "777b-54cc-77ca-6307",
+            "description": "In melee instead of attacking normally place the Ordnance template over this model. Any enemy model beneath is hit automatically and models partially covered are hit on a 4+. Each model then take a S4 hit with no armor save allowed",
+            "hidden": false
+          },
+          {
+            "name": "Etheric Tempest",
+            "id": "c97c-704b-370c-c9a5",
+            "description": "At the start of the enemy assault phase after moved before any blows have been made you may use this ability. All enemy units within 6\" that do not consist entirely of models with an unmodified strength of 4 or more must move 2d6\" directly away from this model as if falling back. Necrons in close combat who find all opponents swept away may consolidate",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "The Deceiver",
+        "id": "40ea-7571-d2aa-282c",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Character", "id": "a0ef-8f1e-e0ef-2ab2", "hidden": false, "primary": false, "targetId": "588e-69d4-72d2-b0e3"},
+          {"name": "HQ", "id": "f000-ae2e-498d-95b6", "hidden": false, "primary": true, "targetId": "555e-accf-54ba-f0c3"},
+          {"name": "Monstrous Creatures", "id": "98a6-51e5-74e4-ce51", "hidden": false, "primary": false, "targetId": "0129-3356-cf79-05f1"},
+          {"name": "C'tan", "id": "14d6-525c-4862-f270", "hidden": false, "primary": false, "targetId": "b602-f788-6cfd-977c"},
+          {"name": "Legendary Unit", "id": "9f20-54a3-94b0-dd4d", "hidden": false, "primary": false, "targetId": "ee338739-6edf-4620-a2cc-f38d5dd21606"}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 300}],
+        "infoLinks": [
+          {"name": "Fearless", "id": "6c0b-e28d-3a4d-ff11", "hidden": false, "targetId": "8443-d89d-5f81-48af", "type": "rule"},
+          {"name": "The Deceiver", "id": "02e2-efd7-50e7-54b7", "hidden": false, "targetId": "a92e-9148-e935-8954", "type": "profile"}
+        ],
+        "rules": [
+          {
+            "name": "Above All Others",
+            "id": "d202-8553-8b0d-f15b",
+            "description": "This unit may not join friendly units and may be picked out by enemy shooters even if within 6\" of other targets.",
+            "hidden": false
+          },
+          {
+            "name": "Drain Life",
+            "id": "66b6-a256-b035-3e3b",
+            "description": "Any model reduced to 0 wounds by this models close combat attacks my not regenerate or recover wounds",
+            "hidden": false
+          },
+          {
+            "name": "Immune to Natural Law",
+            "id": "5715-9ec8-2586-6b33",
+            "description": "My pass through terrain, regard no terrain as impassable, and never take Difficult Terrain Tests. Wraiths may not end a move inside objects and cannot move through enemy units",
+            "hidden": false
+          },
+          {
+            "name": "Manifestations",
+            "id": "229e-af91-fa3c-6734",
+            "description": "Any unit wishing to charge this model must pass a leadership test. If the unit fails they do not charge and may not charge any other units this phase",
+            "hidden": false
+          },
+          {
+            "name": "Necrodermis",
+            "id": "f079-2296-3317-19f3",
+            "description": "This model has a 4+ invulnerable save and if it loses all its wound all models within d6\" suffer a S6 hit no saves allowed. If this model is hit by wraith cannons instead of instant death it takes one wound no save allowed. If C'tan phase sword or knife strikes a C'tan the attack is ignored.",
+            "hidden": false
+          },
+          {
+            "name": "Deceive",
+            "id": "a6aa-7f37-1528-8ce5",
+            "description": "In the shooting phase choose one unit with 24\" in LOS, and not in close combat. Target must take a morale check (at 25% casualties) or a pinning test, C'tan's choice, even if the units would be immune to such tests normally. Vehicles are unaffected",
+            "hidden": false
+          },
+          {
+            "name": "Grand Illusion",
+            "id": "94ac-db2a-7407-a639",
+            "description": "After deployment, infiltrators, and scouts but before first move you may use this ability. Select a unit and roll 1d6\n1-3: Unit may be redeployed\n4-6: Unit may be redeployed and you may use this ability again",
+            "hidden": false
+          },
+          {
+            "name": "Dread",
+            "id": "5cf6-8464-3f3f-40ee",
+            "description": "If this model is not in close combat in the necron assault phase instead of making a assault move you may choose one unit with a model in 24\". Target unit checks leadership and if they fail only hits on 6's in that assault phase. Vehicles, fearless units, or units without a leadership are immune.",
+            "hidden": false
+          },
+          {
+            "name": "Misdirect",
+            "id": "032f-9b1d-4b10-22a9",
+            "description": "If in combat during the enemy assault phase the deceiver may choose to leave before any blows are struck. Fall back in any direction and the enemy may only consolidate this round.",
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Wargear",
+        "id": "ef4f-8f0f-37ab-a83f",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Resurrection Orb",
+            "id": "02c3-55d5-fb7c-4eda",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "dc3c-82b5-9f3c-baaa", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "infoLinks": [{"name": "Resurrection Orb", "id": "382a-40e0-0a77-007a", "hidden": false, "targetId": "0f92-8279-a35b-2337", "type": "profile"}]
+          },
+          {
+            "name": "Chronometron",
+            "id": "bf24-3003-f861-e266",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "8ef1-2d93-d897-c9d7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 10}],
+            "infoLinks": [{"name": "Chronometron", "id": "8201-29ca-82c9-772d", "hidden": false, "targetId": "f8fe-e43b-da9d-e5fd", "type": "profile"}]
+          },
+          {
+            "name": "Disruption Field",
+            "id": "ce46-c3e3-a151-165b",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "7de7-7e8a-a1d9-6969", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+            "infoLinks": [{"name": "Disruption Field", "id": "8998-2d41-9b55-bcca", "hidden": false, "targetId": "b4ee-ef24-f6ea-8254", "type": "profile"}]
+          },
+          {
+            "name": "Destroyer body",
+            "id": "c592-f3cf-e607-c248",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "0c12-dece-e142-a593", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [{"name": "Destroyer body", "id": "7c77-9174-ff24-311d", "hidden": false, "targetId": "61f8-124c-6420-7cf9", "type": "profile"}]
+          },
+          {
+            "name": "Gaze of Flame",
+            "id": "9529-db13-9313-f9ce",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "5c01-11c9-a5c7-df3b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+            "infoLinks": [{"name": "Gaze of Flame", "id": "4253-888b-dfae-ef1d", "hidden": false, "targetId": "c700-c9a3-fd35-f3ea", "type": "profile"}]
+          },
+          {
+            "name": "Lightning field",
+            "id": "df93-8fa3-ce10-f02b",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "4749-d8d2-c656-a9ca", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+            "infoLinks": [{"name": "Lightning field", "id": "390d-4ceb-6e83-ee83", "hidden": false, "targetId": "4a13-377c-0620-b64f", "type": "profile"}]
+          },
+          {
+            "name": "Nightmare Shroud",
+            "id": "c02d-1f88-991b-1766",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "6896-9e7a-4c55-b5a6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {
+                "id": "2806-23ea-56da-7db7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [{"name": "Nightmare Shroud", "id": "93dc-dc0a-32dc-037a", "hidden": false, "targetId": "119c-7395-6344-a8fc", "type": "profile"}]
+          },
+          {
+            "name": "Veil of Darkness",
+            "id": "6dbd-4a90-3156-1ff6",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "b7e3-4bae-175e-76e6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {
+                "id": "b5ab-78b9-0980-e4b1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 60}],
+            "infoLinks": [{"name": "Veil of Darkness", "id": "c3af-b206-b9ff-355c", "hidden": false, "targetId": "92c6-cfbc-879d-54e3", "type": "profile"}]
+          },
+          {
+            "name": "Phylactery",
+            "id": "da0f-942d-6563-a860",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "9b04-0d39-d150-144a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+            "infoLinks": [{"name": "Phylactery", "id": "4b09-5c50-60a4-3e0e", "hidden": false, "targetId": "afe1-b761-62e7-3190", "type": "profile"}]
+          },
+          {
+            "name": "Phase Shifter",
+            "id": "b8b5-f5c9-18ac-8488",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "c19b-7300-7536-855f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {
+                "id": "6827-f81c-1bb8-c211",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+            "infoLinks": [{"name": "Phase Shifter", "id": "ebcf-0928-b538-bc2b", "hidden": false, "targetId": "3604-1cc1-a95a-098c", "type": "profile"}]
+          },
+          {
+            "name": "Solar Pulse",
+            "id": "930f-55bf-4cf5-171d",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "135e-c2aa-ae7c-6e60", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {
+                "id": "c4d7-f433-45a6-6844",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "infoLinks": [{"name": "Solar Pulse", "id": "5d97-43b9-cee0-0ee5", "hidden": false, "targetId": "4512-b8ac-fbce-3579", "type": "profile"}]
+          }
+        ]
+      }
+    ]
+  }
+}
