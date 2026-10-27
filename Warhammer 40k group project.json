@@ -3,11 +3,23 @@
     "name": "Warhammer 40k group project",
     "id": "sys-1d8c-7a1d-0a5e-4b45",
     "battleScribeVersion": "2.03",
-    "revision": 10,
+    "revision": 13,
     "type": "gameSystem",
     "categoryEntries": [
       {"name": "Default Category", "id": "default-category"},
-      {"name": "Artillery", "id": "14fd-310d-13ff-6b5e", "hidden": false},
+      {
+        "name": "Artillery",
+        "id": "14fd-310d-13ff-6b5e",
+        "hidden": false,
+        "rules": [
+          {
+            "name": "Artillery",
+            "id": "3a67-59e1-4a2a-6047",
+            "description": "An Artillery unit consists of a number of crewman models and the gun models. The gun models are treated as vehicles with an Armour Rating of 10 on all sides. Any penetrating or glancing hit will destroy a gun - there is no need to roll on the Vehicle Damage tables. If all the crewman models are killed, the guns are immediately removed as well.\n\n\n\n\nArtillery units move in the same way as infantry. They are still slowed by difficult terrain like infantry, but gun models must also take Dangerous Terrain tests when they pass through it. There must be at least one crewman per gun to allow the unit to move. if there are fewer than this, then the unit may not move.\n\n\n\n\nIn order to shoot with the guns in an artillery unit, there must be at least one different crewman within 2\" of each gun firing. Artillery crewmen may never fire any other weapons as long as the unit still contains any gun models. Unless firing barrage weapons, there must be a line of sight to the target from both a gun model and a crew within 2\" of it. Ranges are measured from the gun model.\nWhen template or blast weapons are fired at an Artillery battery, the guns and crew can be hit as normal if they are under the marker/template. When other weapons are fired at the unit, randomise any hits between the crew and the guns themselves (so long as both types are still in the unit ) - roll a D6 and consult the chart below\n\n\n\n\nD6 Result\n1-4 Hits the Crew\n5-6 Hits a Gun\n\n\n\n\nArtillery units may not declare charges if they still have any gun models with them. In an assault, enemy models attack as normal against the crew's Weapon Skill - randomise any hits using the able above while both crew and gun models remain engaged. If only gun models are engaged, the enemy will hit automatically and resolve their hits against the gun models. Only engaged crew models fight in an assault.\n\n\n\n\nArtillery units follow the normal rules for Morale for infantry units, with the following exceptions:\nIf an artillery unit does not have one crewman per remaining gun and is forced to follow back, the gun models without crewmen are destroyed and the rest of the unit falls back as normal.\nIf an artillery unit is forced to fall back from close combat and the enemy is free to make a sweeping advance, then the artillery unit automatically loses the Initiative roll and is caught and massacred by the victor.",
+            "hidden": false
+          }
+        ]
+      },
       {
         "name": "Beast",
         "id": "d642-ec51-60be-c82f",
@@ -384,14 +396,15 @@
       {"name": "Abilities", "id": "e613-233c-0758-ab9b", "hidden": false, "characteristicTypes": [{"name": "Description", "id": "9348-add7-972a-c772"}]},
       {"name": "Landing Pad Configuration", "id": "b00b-8831-6d78-e9d5", "hidden": false, "characteristicTypes": [{"name": "Effect", "id": "cbfb-212a-5f76-e395"}]},
       {
-        "name": "Psychic Power",
+        "name": "Psychic Power Attack",
         "id": "b157-746d-ce94-30c3",
         "hidden": false,
         "characteristicTypes": [
           {"name": "Range", "id": "f124-7734-fc6e-cd97"},
           {"name": "Strength", "id": "243b-9812-030a-40f3"},
           {"name": "AP", "id": "dc0c-ce68-32a5-78c8"},
-          {"name": "Type", "id": "9f59-4087-fec3-45be"}
+          {"name": "Type", "id": "9f59-4087-fec3-45be"},
+          {"name": "Details", "id": "1e22-b044-1361-2e3b"}
         ]
       },
       {
@@ -426,8 +439,7 @@
           {"name": "Side Armor", "id": "0b12-834b-954f-223a"},
           {"name": "Rear Armor", "id": "8819-7e6e-dda7-f9d2"},
           {"name": "BS", "id": "838c-712e-aab4-1419"},
-          {"name": "Crew", "id": "eaf2-b68c-db79-2642"},
-          {"name": "Transport", "id": "3e6b-a0a9-db87-d987"}
+          {"name": "Crew", "id": "eaf2-b68c-db79-2642"}
         ]
       },
       {
@@ -486,19 +498,10 @@
           {"name": "Building Type", "id": "ff97-f5f0-521b-eaf4"}
         ]
       },
-      {"name": "Vehicle Wargear Item", "id": "288e-8e95-0233-141d", "hidden": false, "characteristicTypes": [{"name": "Description", "id": "4403-7544-6b5f-f2fc"}]}
+      {"name": "Vehicle Wargear Item", "id": "288e-8e95-0233-141d", "hidden": false, "characteristicTypes": [{"name": "Description", "id": "4403-7544-6b5f-f2fc"}]},
+      {"name": "Psychic Power", "id": "76de-3a9f-831f-3d31", "hidden": false, "characteristicTypes": [{"name": "Description", "id": "bff1-140c-3511-899c"}]}
     ],
     "publications": [{"name": "Warhammer 40,000 5th Core Book", "id": "8141-9f94-a55f-5775", "hidden": false, "publisher": "Games Workshop", "shortName": "BRB"}],
-    "selectionEntries": [
-      {
-        "name": "Default Root Entry",
-        "id": "default-entry",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "categoryLinks": [{"name": "Default Category", "id": "default-category-link", "hidden": false, "primary": true, "targetId": "default-category"}]
-      }
-    ],
     "sharedProfiles": [
       {
         "name": "Dreadnought close combat weapons",
@@ -669,6 +672,14 @@
             "typeId": "4403-7544-6b5f-f2fc"
           }
         ]
+      },
+      {
+        "name": "Close Combat Weapon",
+        "id": "989b-a280-12e5-ae88",
+        "hidden": false,
+        "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+        "typeName": "Wargear Item",
+        "characteristics": [{"name": "Description", "$text": "Basic melee weapon", "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228"}]
       }
     ],
     "sharedRules": [
@@ -887,6 +898,48 @@
         "id": "ed60-56a4-01b1-3c10",
         "description": "This model may declare in the movement phase it is using its turbo-boosters to move up to 24\". If it does it may not shoot, assault, move through difficult terrain, go to ground, execute voluntarily actions, and automatically pass Pinning tests. If it moves at least 18\" it gets a 3+ cover save until its next movement phase.",
         "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Vehicle damage table",
+        "id": "4ab6-5e02-e226-a301",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "ed25-e1e6-6ff7-9c54", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "28ba-bafe-217f-69d3", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "28ba-bafe-217f-69d3",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "fb81-85c9-2f10-5508",
+                "childName": "Vehicle",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Vehicle damage table",
+            "id": "ac6d-97bc-8c2e-961b",
+            "description": "1: Crew - shaken: The vehicle may not shoot until the end of its next player turn. Results are not cumulative. Transported units may not shoot in their next shooting phase but are otherwise unaffected.\n2: Crew Stunned: The vehicle may not shoot or move until the end of its next player turn. Results are not cumulative. Transported units may not shoot in their next shooting phase but are otherwise unaffected.\n3: Weapon destroyed: The attacker chooses one weapon to be destroyed. If the vehicle has no weapons left it counts instead as immobilised. No effect on transported units.\n4: immobilised: May not move for the rest of the game. Turrets may still rotate. If a second immobilised result is rolled count as wreaked. No effect on transported units.\n5: Vehicle is destoryed. Leave the model in place as a wreak. Transported units disembark and then make a pinning test\n6+: Explodes: All models within d6\" suffer a Str 3 AP - hit. the vehicle is then removed and a crater is placed in its place. Transported units suffer a Str 4 hit instead then are placed where the vehicle used to be and suffer a pinning test.\n\n\nModifiers:\nGlancing hit -2\nHit by AP - : -1\nHit by AP 1: +1\nTarget is open-topped: +1\n\n",
+            "hidden": false,
+            "page": ""
+          }
+        ]
       }
     ]
   }
